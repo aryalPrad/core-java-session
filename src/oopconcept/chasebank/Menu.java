@@ -14,14 +14,69 @@ public class Menu {
         language id
      */
 
-    int menuId;
-    String name;
-    String slug;
-    boolean isExternal;
-    String externalURL;
-    boolean isActive;
-    int languageId;
+    private int menuId;
+   private String name;
+    private String slug;
+   private  boolean isExternal;
+    private String externalURL;
+   private  boolean isActive;
+    private int languageId;
 
+    public int getMenuId() {
+        return menuId;
+    }
+
+    public void setMenuId(int menuId) {
+        this.menuId = menuId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSlug() {
+        return slug;
+    }
+
+    public void setSlug(String slug) {
+        this.slug = slug;
+    }
+
+    public boolean isExternal() {
+        return isExternal;
+    }
+
+    public void setExternal(boolean external) {
+        isExternal = external;
+    }
+
+    public String getExternalURL() {
+        return externalURL;
+    }
+
+    public void setExternalURL(String externalURL) {
+        this.externalURL = externalURL;
+    }
+
+    public boolean isActive() {
+        return isActive;
+    }
+
+    public void setActive(boolean active) {
+        isActive = active;
+    }
+
+    public int getLanguageId() {
+        return languageId;
+    }
+
+    public void setLanguageId(int languageId) {
+        this.languageId = languageId;
+    }
 }
 
     /*

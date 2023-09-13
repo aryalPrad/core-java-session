@@ -6,9 +6,24 @@ public class Language {
         language name => String
      */
 
-    int languageId;
-    String languageName;
+    private int languageId;
+    private String languageName;
 
+    public int getLanguageId() {
+        return this.languageId;
+    }
+
+    public void setLanguageId(int languageId) {
+        this.languageId = languageId;
+    }
+
+    public String getLanguageName() {
+        return this.languageName;
+    }
+
+    public void setLanguageName(String languageName) {
+        this.languageName = languageName;
+    }
 }
 
 /*
