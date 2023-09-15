@@ -1,0 +1,2 @@
+class whose objects cannot be created.- Math
+create object 
